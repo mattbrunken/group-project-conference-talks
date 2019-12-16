@@ -1,10 +1,12 @@
 # group-project-conference-talks
 
+## Introduction
 This repository uses R scripts to scrape LDS General Conference talk data from the web and Python scripts to clean the data,
 perform an EDA, and fit several different machine learning models for both regression and classification. The main purpose of
 the regression models were to predict talk length (in words) given our data while the classifciation models were designed to
 predict the general calling of a General Authority or General Officer of the Church of Jesus Christ of Latter-day Saints. 
 
+## Content Descriptions
 all_conference.csv - An uncleaned csv filled with the following variables:
   "year" - year that the talk was given
   "month" - either a 4 or a 10 representing an April or October conference
